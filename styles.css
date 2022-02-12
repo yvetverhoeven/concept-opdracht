@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Roboto:wght@100&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Roboto:wght@100&family=Sedgwick+Ave&display=swap');
+
+/*Table of content*/
+/*1. Golbal styles*/
+/*2. Typografie*/
+/*3. Lay-out*/
+/*4. Components*/
+
+/*1. Golbal styles*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --paars: #5722CD;
+    --blauw: #4845E4;
+    --roze: #ED4385;
+    --zwart: #0C0C0C;
+    --zwevend: #F2F0FF;
+    --grijs: #F3F6F9;
+    --service-tegel: #7A7A7A;
+}
+
+/*2. Typografie*/
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/*3. Lay-out*/
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--paars);
+    background-image: url("./assets/noise-texture.png");
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    margin: 5px;
+    list-style: none;
+}
+
+a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.squiggle-line {
+    position: relative;
+    height: 150px;
+    padding-top: 50px;
+}
+
+.schuine-lijn {
+    position: relative;
+    background-color: white;
+    color: white;
+    height: 100px;
+    width: 150%;
+    transform: rotate(3deg);
+    bottom: -50px;
+}
+
+.button {
+    background-color: var(--roze);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+.hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        padding-top: 75px;
+}
+.button:hover {
+    padding: 25px 35px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center ;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 10px;
+}
+
+.flip {
+    order: 1;
+}
+
+.tile-wisdom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:10px
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us {
+    color: var(--paars);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--paars);
+    color: white;
+}
+
+.header-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 50px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
